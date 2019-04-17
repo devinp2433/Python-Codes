@@ -1,0 +1,30 @@
+"""
+Homework assignment 1
+#This program consists of all attributes of my favourite song - 'Here with me'
+"""
+#This variable stores the name of my favourite song (String)
+name = "Here with me"
+#This variable stores the name of its artist (String)
+artist = "Marshmallo"
+#This stores the year the song was released (Integer)
+year_released = 2019
+#This variable stores the genre of the song (String)
+genre = "Dance/Electronic"
+#Thiss variable stores duration of the song in seconds (Integer)
+duration_in_sec = 183
+#this variable stores the name of the album the song belongs to (String)
+album = "Here with me"
+#This varible stores the other artists featuring in the song (String)
+other_artist = "CHVRCHES"
+#This variable store the number of views the music video has recieved (float)
+num_views = 5.73
+
+#The following statements will output the data stored in variables
+print("Name of song - ",name)
+print("Artist - ",artist)
+print("Year Released - ",year_released)
+print("Genre - ",genre)
+print("Duration - ",duration)
+print("Album - ", album)
+print("This song also features ",other_artist)
+print("The number of views is ",num_views, " million")
